@@ -1,0 +1,19 @@
+/* Site wide css */
+
+/* Main Navigation */
+.navbar-wrapper .container{
+	padding-right:0;
+	padding-left:95px;
+	width:100%;
+
+}
+.navbar{
+	top:-20px;
+
+}
+#nav-shell{
+	background-color:white;
+}
+#nav-shell a{
+	
+}
