@@ -15,5 +15,12 @@
 	background-color:white;
 }
 #nav-shell a{
-	
+	color:black;	
+}
+.brand img{
+	position:absolute;
+	width:auto;
+	height:100px;
+	left:0px;
+	top:0px;	
 }
