@@ -1,4 +1,7 @@
 /* Site wide css */
+body,html{
+	background-color:#f6f6f6;
+}
 
 /* Main Navigation */
 .navbar-wrapper .container{
