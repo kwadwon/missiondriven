@@ -1,4 +1,7 @@
 /* Site wide css */
+body,html{
+	background-color:#f6f6f6;
+}
 
 /* Main Navigation */
 .navbar-wrapper .container{
@@ -17,10 +20,14 @@
 #nav-shell a{
 	color:black;	
 }
-.brand img{
+.brand {
 	position:absolute;
-	width:auto;
+	width:100px;
 	height:100px;
 	left:0px;
 	top:0px;	
+}
+
+.brand img{
+	height:100%;
 }
