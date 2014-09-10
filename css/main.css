@@ -1,12 +1,15 @@
 /* Site wide css */
 body,html{
-	background-color:#f6f6f6;
+	/*background-color:#f6f6f6;*/
+	background-color: #CDA349;
 }
+
 
 
 /****************** Begin Main Navigation  and navbar ************************/
 .navbar-fixed-top{
 	border-width:0;
+
 }
 
 .navbar-wrapper .container{
@@ -20,6 +23,10 @@ body,html{
 }
 #nav-shell{
 	background-color:#CDA349;
+	-webkit-box-shadow: 2px 2px 2px 2px #FC0;
+    -moz-box-shadow:    2px 2px 2px 2px #FC0;
+    box-shadow:         2px 2px 2px 2px #FC0;
+    z-index:999;
 }
 #nav-shell a:hover, #nav-shell a:focus{
 	background-color:#3E6550;
@@ -52,14 +59,14 @@ body,html{
 
 #myCarousel{
 	margin-top:50px;
-	height:650px;
+	height:710px;
 	margin-bottom:0px;
 }
 #myCarousel .item{
-	height:650px;
+	height:710px;
 }
 #myCarousel .item img{
-	height:650px;
+	height:710px;
 }
 #logo_item{
 	background-color:#CDA349;
@@ -83,6 +90,40 @@ body,html{
 /****************** Begin row full  *********************************************/
 .full{
 	height:700px;
+}
+
+.spacer{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.white_text{
+	color:white;
+}
+
+.green{
+	background-color:#3E6550;
+}
+
+.tanyel{
+	background-color:#CDA349;
+}
+
+.offwhite{
+	background-color:#f6f6f6;
+}
+div.container-fluid.marketing hr.featurette-divider{
+	margin:5px 0;
+}
+
+#rs_1:hover, #rs_1:focus{
+
+}
+div.row.featurette{
+	padding:100px 10px 100px 10px;
+}
+
+.emptiness{
+	min-height:10px;
 }
 /****************** End row full  *********************************************/
 
