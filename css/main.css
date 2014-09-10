@@ -1,33 +1,131 @@
 /* Site wide css */
 body,html{
-	background-color:#f6f6f6;
+	/*background-color:#f6f6f6;*/
+	background-color: #CDA349;
 }
 
-/* Main Navigation */
+
+
+/****************** Begin Main Navigation  and navbar ************************/
+.navbar-fixed-top{
+	border-width:0;
+
+}
+
 .navbar-wrapper .container{
 	padding-right:0;
 	padding-left:95px;
 	width:100%;
-
 }
 .navbar{
-	top:-20px;
+	/*top:-20px;*/
 
 }
 #nav-shell{
-	background-color:white;
+	background-color:#CDA349;
+	-webkit-box-shadow: 2px 2px 2px 2px #FC0;
+    -moz-box-shadow:    2px 2px 2px 2px #FC0;
+    box-shadow:         2px 2px 2px 2px #FC0;
+    z-index:999;
+}
+#nav-shell a:hover, #nav-shell a:focus{
+	background-color:#3E6550;
+}
+.dropdown-menu{
+	background-color:#CDA349;
 }
 #nav-shell a{
-	color:black;	
+	color:white;	
+}
+.navbar-header{
+	padding-left:50px;
+}
+.navbar-brand{
+	font-size:20px;
 }
 .brand {
 	position:absolute;
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	left:0px;
-	top:0px;	
+	top:-12px;	
 }
 
 .brand img{
 	height:100%;
 }
+/****************** End Main Navigation  and navbar ************************/
+/****************** Begin Carousel ******************************************/
+
+#myCarousel{
+	margin-top:50px;
+	height:710px;
+	margin-bottom:0px;
+}
+#myCarousel .item{
+	height:710px;
+}
+#myCarousel .item img{
+	height:710px;
+}
+#logo_item{
+	background-color:#CDA349;
+}
+/* getting rid of gradient on carousel left and right control */
+.carousel-control.left, .carousel-control.right{
+	background-image:none;
+}
+#logo_item{
+	background-color:#3E6550;
+	text-align: center;
+}
+#logo_item img{
+	min-width: 200px;
+	width;auto;
+	height:500px;
+	margin-left:26%;
+	top:-20px;
+}
+/****************** End Carousel *********************************************/
+/****************** Begin row full  *********************************************/
+.full{
+	height:700px;
+}
+
+.spacer{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.white_text{
+	color:white;
+}
+
+.green{
+	background-color:#3E6550;
+}
+
+.tanyel{
+	background-color:#CDA349;
+}
+
+.offwhite{
+	background-color:#f6f6f6;
+}
+div.container-fluid.marketing hr.featurette-divider{
+	margin:5px 0;
+}
+
+#rs_1:hover, #rs_1:focus{
+
+}
+div.row.featurette{
+	padding:100px 10px 100px 10px;
+}
+
+.emptiness{
+	min-height:10px;
+}
+/****************** End row full  *********************************************/
+
+
+
