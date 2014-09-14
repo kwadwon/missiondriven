@@ -13,9 +13,8 @@
     <!-- Bootstrap core CSS -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/about.css" rel="stylesheet">
 
-  <!-- Main site CSS -->
+	<!-- Main site CSS -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,7 +31,6 @@
     <link href="bootstrap/css/carousel.css" rel="stylesheet">
 
   </head>
-
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -41,7 +39,7 @@
 
         <div id="nav-shell" class="navbar navbar-fixed-top" role="navigation">
           <div class="container">
-            <div class="navbar-header">
+            <div id="brandname" class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -50,59 +48,58 @@
               </button>
               <a class="navbar-brand" href="index.html">Mission Driven Purpose</a>
             </div>
-      <div class="brand">
-        <img src="media/logoasn.png"/>
-      </div>
+			<div class="brand">
+				<img src="media/logoasn.png"/>
+			</div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-
-                <li class="active"><a id="motto" href="">Motto</a></li>
+				        <li class="active"><a id="motto" href="">Motto</a></li>
                 <li><a id="healing" href="">Healing</a></li>
                 <li><a id="teaching" href="">Teaching</a></li>
                 <li><a id="preaching" href="">Preaching</a></li>
 
               </ul>
               <ul class="nav navbar-nav navbar-right" style="padding-right:30px">
-                <li><a href="about.html">About</a></li>
+                <li><a href="">About</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+                  <a href="programs.html" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Healing</a></li>
-                    <li><a href="#">Teaching</a></li>
-                    <li><a href="#">Preaching</a></li>
+                    <li><a href="programs.html">Healing</a></li>
+                    <li><a href="programs.html">Teaching</a></li>
+                    <li><a href="programs.html">Preaching</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Missions<span class="caret"></span></a>
+                  <a href="missions.html" class="dropdown-toggle" data-toggle="dropdown">Missions<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">International</li>
-                    <li><a href="#">Current</a></li>
-                    <li><a href="#">Past</a></li>
+                    <li><a href="missions.html">Current</a></li>
+                    <li><a href="missions.html">Past</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header">Local</li>
-                    <li><a href="#">Current</a></li>
-                    <li><a href="#">Past</a></li>
+                    <li><a href="missions.html">Current</a></li>
+                    <li><a href="missions.html">Past</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
+                <a href="resources.html" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Audio</a></li>
-                  <li><a href="#">Photos</a></li>
-                  <li><a href="#">Videos</a></li>
+                  <li><a href="resources.html">Audio</a></li>
+                  <li><a href="photos.html">Photos</a></li>
+                  <li><a href="resources.html">Videos</a></li>
                   <li class="divider"></li>
                   <li class="dropdown-header">Blog</li>
-                  <li><a href="#">Inspiration</a></li>
-                  <li><a href="#">Nuggets</a></li>
-                  <li><a href="#">Forum</a></li>
+                  <li><a href="resources.html">Inspiration</a></li>
+                  <li><a href="resources.html">Nuggets</a></li>
+                  <li><a href="resources.html">Forum</a></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
+                <a href="support.html" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Donate</a></li>
-                  <li><a href="#">Join The Team</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="support.html">Donate</a></li>
+                  <li><a href="support.html">Join The Team</a></li>
+                  <li><a href="support.html">Contact Us</a></li>
                 </ul>
               </li>
             </ul>
@@ -114,55 +111,53 @@
     </div>
 
 
-    
+    <!-- Carousel
+    ================================================== -->
+   
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div  id="c_motto" class="row " style="font-size:20px;padding-bottom:50px;color:#2B2B2B;">
+        
+      </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+     
 
     <div class="container-fluid marketing">
 
       <!-- START THE FEATURETTES -->
-      <section>
-        <div class="row featurette" style="background-color:#ededed">
-          <div class="col-md-7 about-us-title">
-            <h2 class="about-us-heading">Our Team</h2>
-            <p class="lead our-team-story">Our team has great experience in doing mission work. We have dedicated
-              members called by God who have chosen to give their lives to serve others
-              <span class="about-us-bible-verse">Hebrews 6:10</span>
-            </p>
-          </div>
+      <div class="row featurette offwhite" style="">
+        <div id="c_healing" class="col-lg-12" style="text-align:center;">
+          <h1 style="font-size:45px"> Support page coming soon ...</h1>
         </div>
-      </section>
+      </div>
+
       
-      <section>
-        <div class="row featurette" style="background-color:#ffffff">
-          <div class="employees">
-            <div>
-              <img class="about-us-pic" src="media/photoc/person1.jpeg">
-              <div class="about-us-img-name"><h4 style="font-weight: bold"> Kwadwo Nyarko </h4></div>
-              <div class="about-us-img-description"><h5> Senior Pastor </h5></div>
-            </div>
-
-            <div>
-              <img class="about-us-pic" src="media/photoc/person2.jpeg">
-              <div class="about-us-img-name"><h4> Nana Kwami </h4></div>
-              <div class="about-us-img-description"><h5> Lead Evangelist </h5></div>
-            </div>
-
-             <div>
-              <img class="about-us-pic" src="media/photoc/person2.jpeg">
-              <div class="about-us-img-name"><h4> Yaw Kankam </h4></div>
-              <div class="about-us-img-description"><h5> Bell Boy </h5></div>
-            </div>
-          </div>
+      <div class="row featurette offwhite" style="">
+         
+      </div>
+      
+      <div class="row featurette offwhite">
+        
+        <div class="col-md-7">
+          
         </div>
-      </section>
-      <hr class="featurette-divider">
+        <div class="col-md-5">
+        </div>
+      </div>
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a id="btt" href="about.html">Back to top</a></p>
-        <p>&copy; Built by oneEagle. &middot; <a href="http://www.perryog.com/" target="_blank" >Contact</a> &middot;</p>
+        <p class="pull-right"><a id="btt" href="#">Back to top</a></p>
+        <p>&copy; 2014 ASN Mission Driving Purpose Inc. &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -173,7 +168,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="galleria/galleria-1.4.2.min.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
 
   </body>
 </html>
+
+
