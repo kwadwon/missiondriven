@@ -1,0 +1,50 @@
+.about-us-title{
+	float: right;
+	color: red;
+	font-size: 40px;
+}
+
+.about-us-text{
+	border-top: solid 0.25rem black;
+}
+
+.row{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 62.5rem;
+}
+
+.title{
+	padding-top: 4.0625rem;
+}
+
+.text-center{
+	text-align: center !important;
+}
+
+.h1-text{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.25rem;
+}
+
+.span-text{
+	border-top: solid 0.25rem black;
+	border-bottom: solid 0.25rem black;
+	padding: 0.75rem 0;
+}
+
+.about-us{
+	padding-top: 1.25rem;
+	padding-bottom: 4.0625rem;
+}
+
+.about-us-text{
+	text-align: center;
+	/*margin-right: auto;
+	margin-left: auto;*/
+}
