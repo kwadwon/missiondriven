@@ -33,3 +33,7 @@ $(document).ready(function(){
 		$("html, body").animate({scrollTop:0}, 1000);
 	});
 });
+
+
+Galleria.loadTheme('/Users/Kwadwo/missiondriven/galleria/themes/classic/galleria.classic.min.js');
+Galleria.run('.galleria');
