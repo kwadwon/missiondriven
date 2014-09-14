@@ -124,13 +124,15 @@ div.container-fluid.marketing hr.featurette-divider{
 }
 div.row.featurette{
 	padding:50px 10px 210px 10px;
-	color:black;
+	color:#2B2B2B;
 }
 
 .emptiness{
 	min-height:10px;
 }
 /****************** End row full  *********************************************/
-
+a{
+	color:white;
+}
 
 
