@@ -21,6 +21,7 @@ body,html{
 	/*top:-20px;*/
 
 }
+
 #nav-shell{
 	background-color:#CDA349;
 	-webkit-box-shadow: 2px 2px 2px 2px #FC0;
@@ -30,6 +31,9 @@ body,html{
 }
 #nav-shell a:hover, #nav-shell a:focus{
 	background-color:#3E6550;
+}
+#brandname a:hover, #brandname a:focus{
+	background-color: #CDA349;
 }
 .dropdown-menu{
 	background-color:#CDA349;
