@@ -6,102 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>Mission Driven Purpose</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/about.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/fixed-top.css" rel="stylesheet">
+  <!-- Main site CSS -->
 
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="bootstrap/css/carousel.css" rel="stylesheet">
+
   </head>
 
+<!-- NAVBAR
+================================================== -->
   <body>
-
-    <!-- Fixed navbar -->
-    <div>
-    </div>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><strong>Mission Driven Purpose</strong></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index2.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-	    <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Healing</a></li>
-                <li><a href="#">Teaching</a></li>
-                <li><a href="#">Preaching</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Missions<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li class="dropdown-header">International</li>
-                <li><a href="#">Current</a></li>
-                <li><a href="#">Past</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Local</li>
-                <li><a href="#">Current</a></li>
-                <li><a href="#">Past</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Audio</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Videos</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Blog</li>
-                <li><a href="#">Inspiration</a></li>
-                <li><a href="#">Nuggets</a></li>
-                <li><a href="#">Forum</a></li>
-              </ul>
-            </li>
-	    <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Join The Team</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </li>
-	  </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-  
-  <section class="about-us">
-    <div class="about-us-section">
-      <div class="about-us-text">
-        <h1>About us</h1>
-      </div>
 
-      <div class="about-us-write-us">
-        This is where the write up will go
+        <div id="nav-shell" class="navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Mission Driven Purpose</a>
+            </div>
+      <div class="brand">
+        <img src="media/logoasn.png"/>
+      </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+
+                <li class="active"><a id="motto" href="">Motto</a></li>
+                <li><a id="healing" href="">Healing</a></li>
+                <li><a id="teaching" href="">Teaching</a></li>
+                <li><a id="preaching" href="">Preaching</a></li>
+
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="padding-right:30px">
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Healing</a></li>
+                    <li><a href="#">Teaching</a></li>
+                    <li><a href="#">Preaching</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Missions<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">International</li>
+                    <li><a href="#">Current</a></li>
+                    <li><a href="#">Past</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Local</li>
+                    <li><a href="#">Current</a></li>
+                    <li><a href="#">Past</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Audio</a></li>
+                  <li><a href="#">Photos</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Blog</li>
+                  <li><a href="#">Inspiration</a></li>
+                  <li><a href="#">Nuggets</a></li>
+                  <li><a href="#">Forum</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Donate</a></li>
+                  <li><a href="#">Join The Team</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  </section>
+
+
+    
+
+    <div class="container-fluid marketing">
+
+      <!-- START THE FEATURETTES -->
+      <section>
+        <div class="row featurette" style="background-color:#ededed">
+          <div class="col-md-7 about-us-title">
+            <h2 class="about-us-heading">Our Team</h2>
+            <p class="lead our-team-story">Our team has great experience in doing mission work. We have dedicated
+              members called by God who have chosen to give their lives to serve others
+              <span class="about-us-bible-verse">Hebrews 6:10</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div>
+          <h1>I AM TESTING</h1>
+        </div>
+      </section>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a id="btt" href="about.html">Back to top</a></p>
+        <p>&copy; Built by oneEagle. &middot; <a href="http://www.perryog.com/" target="_blank" >Contact</a> &middot;</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
   </body>
 </html>
