@@ -131,8 +131,11 @@ div.row.featurette{
 	min-height:10px;
 }
 /****************** End row full  *********************************************/
-a{
+footer a{
 	color:white;
 }
 
+footer a:hover, a:focus{
+	color:#3E6550;
+}
 
