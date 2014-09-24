@@ -1,0 +1,11 @@
+#side_nav{
+	text-align:left;
+	padding-top:50px;
+	font-size:20px;
+	border-right:solid 2px #3E6550;
+	height:600px;
+}
+
+#side_nav ul {
+	cursor: pointer;
+}
