@@ -58,6 +58,10 @@ body,html{
 .brand img{
 	height:100%;
 }
+
+#logoimg a:hover, #logoimg a:focus{
+	background-color:transparent;
+}
 /****************** End Main Navigation  and navbar ************************/
 /****************** Begin Carousel ******************************************/
 
@@ -128,7 +132,8 @@ div.row.featurette{
 }
 
 .emptiness{
-	min-height:10px;
+	min-height:10px;				
+
 }
 /****************** End row full  *********************************************/
 footer a{
@@ -138,4 +143,5 @@ footer a{
 footer a:hover, a:focus{
 	color:#3E6550;
 }
+
 
