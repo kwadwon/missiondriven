@@ -85,7 +85,19 @@
   background-color: #aaa;
 }
 
+.section-with-words{
+	padding-bottom: 10px !important;
+}
 
+.about-us-secondary-title {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
 
-
+.mdp{
+	color: #3E6550;
+	font-weight: bold;
+}
 
