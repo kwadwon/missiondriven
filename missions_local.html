@@ -13,8 +13,10 @@
     <!-- Bootstrap core CSS -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/programs.css" rel="stylesheet">
 
-	<!-- Main site CSS -->
+
+  <!-- Main site CSS -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -48,27 +50,20 @@
               </button>
               <a class="navbar-brand" href="index.html">Mission Driven Purpose</a>
             </div>
-			<div class="brand">
-				<img src="media/logoasn.png"/>
-			</div>
+      <div class="brand">
+        <img src="media/logoasn.png"/>
+      </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-				        <li class="active"><a id="motto" href="">Motto</a></li>
+                <li class="active"><a id="motto" href="">Motto</a></li>
                 <li><a id="healing" href="">Healing</a></li>
                 <li><a id="teaching" href="">Teaching</a></li>
                 <li><a id="preaching" href="">Preaching</a></li>
 
               </ul>
               <ul class="nav navbar-nav navbar-right" style="padding-right:30px">
-                <li><a href="">About</a></li>
-                <li class="dropdown">
-                  <a href="programs.html" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="programs.html">Healing</a></li>
-                    <li><a href="programs.html">Teaching</a></li>
-                    <li><a href="programs.html">Preaching</a></li>
-                  </ul>
-                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
                 <li class="dropdown">
                   <a href="missions.html" class="dropdown-toggle" data-toggle="dropdown">Missions<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
@@ -90,11 +85,11 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="support.html" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="support.html">Donate</a></li>
-                  <li><a href="support.html">Join The Team</a></li>
-                  <li><a href="support.html">Contact Us</a></li>
+                  <li><a href="">Donate</a></li>
+                  <li><a href="#">Join The Team</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
               </li>
             </ul>
@@ -116,7 +111,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
-      <div  id="c_motto" class="row " style="font-size:20px;padding-bottom:50px;color:#2B2B2B;">
+      <div  class="row " style="font-size:20px;padding-bottom:50px;color:#2B2B2B;">
         
       </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -127,24 +122,31 @@
 
       <!-- START THE FEATURETTES -->
       <div class="row featurette offwhite" style="">
-        <div id="c_healing" class="col-lg-12" style="text-align:center;">
-          <h1 style="font-size:45px"> Support page coming soon ...</h1>
+        <div id="side_nav" class="col-lg-2" style="">
+            <ul>
+              <li> <a id="toHdiv">Local</a></li>
+              <li> <a id="toTdiv">International</a></li>
+            </ul>
+        </div>
+        <div id="" class="col-lg-10" style="text-align:center;">
+          <h1 id="header_name" style="font-size:45px"> Local Missions coming soon ...</h1>
+          <div style="text-align:left;">
+            <div id="intro">
+              We specialize and offer services in the art of Teaching, Healing, and Preaching. 
+            </div>
+            <div id="healing_div" style="display:none;">
+              Heal me please.
+            </div>
+
+            <div id="teaching_div" style="display:none;">
+              Teach me please.
+            </div>
+          </div>
         </div>
       </div>
 
       
-      <div class="row featurette offwhite" style="">
-         
-      </div>
       
-      <div class="row featurette offwhite">
-        
-        <div class="col-md-7">
-          
-        </div>
-        <div class="col-md-5">
-        </div>
-      </div>
 
       <!-- /END THE FEATURETTES -->
 
@@ -163,8 +165,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="galleria/galleria-1.4.2.min.js"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/programs.js" type="text/javascript"></script>
+
 
   </body>
 </html>
