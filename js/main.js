@@ -10,14 +10,14 @@ $(document).ready(function(){
 		event.preventDefault();
 		//check on firefox and ie and chrome
 		var offset = $("#c_healing").offset().top;
-		$("html, body").animate({scrollTop:offset-78}, 1000);
+		$("html, body").animate({scrollTop:offset-132}, 1000);
 	});
 
 	$("#teaching").click(function(event){
 		event.preventDefault();
 		//check on firefox and ie and chrome
 		var offset = $("#c_teaching").offset().top;
-		$("html, body").animate({scrollTop:offset-99}, 1000);
+		$("html, body").animate({scrollTop:offset-130}, 1000);
 	});
 
 	$("#preaching").click(function(event){

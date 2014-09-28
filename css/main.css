@@ -1,7 +1,7 @@
 /* Site wide css */
 body,html{
 	/*background-color:#f6f6f6;*/
-	background-color: #CDA349;
+	background-color: #EDEDD6;
 }
 
 
@@ -137,7 +137,7 @@ div.row.featurette{
 }
 /****************** End row full  *********************************************/
 footer a{
-	color:white;
+	color:#3E6550;
 }
 
 footer a:hover, a:focus{
