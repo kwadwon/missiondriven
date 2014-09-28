@@ -101,3 +101,12 @@
 	font-weight: bold;
 }
 
+.actual-verse{
+	font-size: 15px;
+	font-style: italic;
+	color: black;
+	display: inline-block;
+	margin-top: -20px;
+
+}
+
