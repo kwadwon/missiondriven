@@ -56,5 +56,4 @@ $(document).ready(function(){
 });
 
 
-Galleria.loadTheme('/Users/Kwadwo/missiondriven/galleria/themes/classic/galleria.classic.min.js');
-Galleria.run('.galleria');
+
